@@ -1,7 +1,7 @@
 # spify
  saves spotifysong by recording and names them correctly
 # to use the python file:
-1. Install dependencies ``
+1. Install dependencies `pip install pydub pygetwindow mutagen pyaudio`
 1. Install ffmpeg/ffprobe to an enviroment variable
 2. Start Spotify
 3. Start python file
