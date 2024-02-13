@@ -8,7 +8,7 @@
 3. Click play on Spotify, the program should sense the action and start recoding
 4. When done playing songs pause Spotify, this should cause the program to close
 # To use the exe file:
-1. Make sure that  ffmpeg/ffprobe are in *the working directory* 
+1. Make sure that  ffmpeg/ffprobe are in *the working directory* (or path)
 2. Follow python instuctions
 ## Issues 
 ### 1. Error -[Errno -9998]:
@@ -22,3 +22,5 @@ pyinstaller main.spec
 ```
 Then running pyinstaller
 will build a one-file exe in the directory`./dist`. For further messing around building main.py with the command `pyinstaller main.py` will regenorate the *.spec file and output a multi-file build in `./dist/main`
+
+
