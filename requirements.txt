@@ -1,0 +1,9 @@
+
+# MP3 Metadata Lib
+mutagen==1.47.0 # This Version works, if you have a preferance and it works as well, then change it
+# Used for getting Spotify Data
+pygetwindow==0.0.9 # just What i have
+# Used for recording to wav format
+pyaudio==0.2.13 # I believe i was having issues installing so this is the version that i have working, others may work fine
+# Converts .wav file to mp3 files
+pydub==0.25.1# Same as the Above

@@ -15,10 +15,10 @@ from sys import argv
 if argv[-1] != 'main.py':
     album = argv[-1]
     print('Set Album To: ',album)
-path = 'more music/'
+path = album+'/'
 try: os.mkdir(path)
-except: pass
-
+except FileExistsError: pass
+except: print(Exception)
 class Record_Spotify():
     def save_file(self,chunk,width):
         global path
