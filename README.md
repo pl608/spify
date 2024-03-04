@@ -24,3 +24,5 @@ pyinstaller main.spec
 ```
 
 will build a one-file exe in the directory`./dist`. For further messing around building main.py with the command `pyinstaller main.py` will regenorate the *.spec file and output a multi-file build in `./dist/main`
+
+(ff_exes.7z is included cause i have no idea where i got them from orginialy and they are needed for mp3)
